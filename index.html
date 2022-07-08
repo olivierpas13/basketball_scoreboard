@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="/general.css" />
+    <link rel="stylesheet" href="/homeScore.css" />
+    <link
+      href="http://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="body-container">
+      <div class="home-container">
+        <div class="home-title"><h3>HOME</h3></div>
+        <div class="home-score">0
+        </div>
+        <div class="buttons-container">
+          <div class="button-plus-1">
+            <button onclick="incrementOneHome()">+1</button>
+          </div>
+          <div class="button-plus-2">
+            <button onclick="incrementTwoHome()">+2</button>
+          </div>
+          <div class="button-plus-3">
+            <button onclick="incrementThreeHome()">+3</button>
+          </div>
+        </div>
+      </div>
+      <div class="guest-container">
+        <div class="guest-title">
+          <h3>GUEST</h3>
+        </div>
+        <div class="guest-score">0</div>
+        <div class="buttons-container">
+          <div class="button-plus-1">
+            <button onclick="incrementOneGuest()">+1</button>
+          </div>
+          <div class="button-plus-2">
+            <button onclick="incrementTwoGuest()">+2</button>
+          </div>
+          <div class="button-plus-3">
+            <button onclick="incrementThreeGuest()">+3</button>
+          </div>
+      </div>
+    </div>
+    <script src="general.js"></script>
+  </body>
+</html>
